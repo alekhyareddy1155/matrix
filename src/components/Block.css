@@ -1,0 +1,35 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.grid-items {
+  border: 10px solid black;
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+/* normal approach */
+
+.parentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.flexContainer {
+  display: flex;
+  gap: 20px;
+}
+.child {
+  width: 200px;
+  height: 200px;
+  border: 10px solid black;
+}
+
+.hidden {
+  display: none;
+  cursor: none;
+}
